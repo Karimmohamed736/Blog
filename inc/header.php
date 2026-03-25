@@ -94,7 +94,7 @@ if (isset($_SESSION['lang'])) {
             <?php
             if (isset($_SESSION['user_id'])) { ?> <!-- if user is in show logout-->
               <li class="nav-item">
-                <a class="nav-link" href="handle/logout.php"><?php echo $lang['Logout'] ?></a>
+                <a class="nav-link" href="handle/logout.php"><?php echo "Logout" ?></a>
               </li>
             <?php  } else { ?>
               <li class="nav-item">
